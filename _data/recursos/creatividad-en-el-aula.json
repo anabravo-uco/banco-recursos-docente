@@ -1,11 +1,10 @@
 {
-  "titulo": "Creatividad en el aula",
+  "titulo": "Proceso creativo en el aula",
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Educación",
   "curso": "2º",
   "tema": "Tema 2",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -14,28 +13,22 @@
   "acceso": "Abierto",
   "visible": true,
   "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 2 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad interactiva para identificar el proceso creativo en el aula de educación infantil.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbwHYa8ySEEOApu5fRKnmYrT2JxgKFshSY-zRUeD6DgoGjTq8HTZYEm87zGnfjxDAg542A/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 1 y 2.",
-      "asignatura": ""
+      "estudiantes": 22
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +47,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
