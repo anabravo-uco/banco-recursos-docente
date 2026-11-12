@@ -5,6 +5,18 @@
   "curso": "2º",
   "tema": "Tema 4",
   "transversal": false,
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Infantil",
+      "asignatura": "Psicología de la Educación",
+      "curso": "2º"
+    },
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Autoevaluación",
   "metodologias": [
     "Aprendizaje activo"
@@ -23,8 +35,15 @@
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "observaciones": "Grupo en el que se impartieron los temas 4 y 5."
+      "estudiantes": 14
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 44
     }
   ],
   "autoria": [
@@ -45,7 +64,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar"
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
