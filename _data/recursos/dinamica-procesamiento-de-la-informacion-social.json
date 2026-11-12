@@ -1,0 +1,78 @@
+{
+  "titulo": "Dinámica: procesamiento de la información social",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología de la Educación",
+  "curso": "2º",
+  "tema": "Tema 4",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Dinámica de aula",
+  "metodologias": [
+    "Aprendizaje cooperativo",
+    "Aprendizaje basado en casos"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2025",
+  "descripcion": "Dinámica por parejas con tres versiones de una misma situación de recreo. Cada estudiante identifica las fases del modelo de procesamiento de la información social (Crick y Dodge, 1994; Lemerise y Arsenio, 2000) y analiza cómo la interpretación y las emociones de Mario orientan su conducta. Complementa la actividad interactiva «Procesamiento de la información social».",
+  "objetivos": [
+    "Comprender cómo la interpretación de una situación social y las emociones que la acompañan orientan el comportamiento infantil y sus consecuencias en las relaciones con los iguales.",
+    "Identificar las fases del modelo de procesamiento de la información social en situaciones cotidianas."
+  ],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Dinámica y situaciones",
+      "formato": "Documento PDF",
+      "url": "",
+      "archivo": "/materiales/Dinamica_procesamiento_informacion_social.pdf"
+    },
+    {
+      "nombre": "Esquema del modelo",
+      "formato": "Imagen",
+      "url": "",
+      "archivo": "/materiales/Esquema_procesamiento_informacion_social.png"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "grupos": 1,
+      "estudiantes": null,
+      "observaciones": "Grupo en el que se impartieron los temas 4 y 5.",
+      "asignatura": ""
+    }
+  ],
+  "relacionados": [
+    "_data/recursos/procesamiento-de-la-informacion-social.json"
+  ],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Recursos",
+        "Visualización",
+        "Redacción – borrador original",
+        "Redacción – revisión y edición"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

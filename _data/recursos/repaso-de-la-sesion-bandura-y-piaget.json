@@ -1,0 +1,58 @@
+{
+  "titulo": "Repaso de la sesión: Bandura y Piaget",
+  "titulacion": "Grado en Educación Primaria",
+  "asignatura": "Psicología de la Educación y del Desarrollo",
+  "curso": "",
+  "tema": "Tema 2",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Actividad interactiva",
+  "metodologias": [
+    "Aprendizaje activo"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2024",
+  "descripcion": "Actividad interactiva del tema 2 de Psicología de la Educación y del Desarrollo.",
+  "objetivos": [],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Genially",
+      "url": "https://view.genially.com/670fec166d563af25e4e44ec",
+      "archivo": ""
+    }
+  ],
+  "uso": [],
+  "relacionados": [
+    "_data/recursos/aprendizaje-social-de-bandura.json"
+  ],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Visualización",
+        "Redacción – borrador original"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

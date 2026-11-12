@@ -1,0 +1,65 @@
+{
+  "titulo": "Autoevaluación de contenidos sobre competencia moral",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología de la Educación",
+  "curso": "2º",
+  "tema": "Tema 4",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Autoevaluación",
+  "metodologias": [
+    "Autoevaluación",
+    "Evaluación formativa"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2025",
+  "descripcion": "Autoevaluación del tema 4 de Psicología de la Educación.",
+  "objetivos": [],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Genially",
+      "url": "https://view.genially.com/68fca24aed7c54d12226f31e",
+      "archivo": ""
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "grupos": 1,
+      "estudiantes": null,
+      "observaciones": "Grupo en el que se impartieron los temas 4 y 5.",
+      "asignatura": ""
+    }
+  ],
+  "relacionados": [],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Visualización",
+        "Redacción – borrador original"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

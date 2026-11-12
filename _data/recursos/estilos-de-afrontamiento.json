@@ -1,0 +1,56 @@
+{
+  "titulo": "Estilos de afrontamiento",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología de la Convivencia Escolar en Educación Infantil",
+  "curso": "",
+  "tema": "Tema 3",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Actividad interactiva",
+  "metodologias": [
+    "Aprendizaje activo"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2026",
+  "descripcion": "Actividad interactiva del tema 3 de Psicología de la Convivencia Escolar en Educación Infantil.",
+  "objetivos": [],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Genially",
+      "url": "https://view.genially.com/6aecd740d6a86d2a8159bc17",
+      "archivo": ""
+    }
+  ],
+  "uso": [],
+  "relacionados": [],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Visualización",
+        "Redacción – borrador original"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

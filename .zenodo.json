@@ -1,0 +1,38 @@
+{
+  "title": "Banco de recursos educativos abiertos de Psicología Evolutiva y de la Educación",
+  "upload_type": "lesson",
+  "description": "<p>Colección de recursos educativos abiertos de elaboración propia para la docencia universitaria en el área de Psicología Evolutiva y de la Educación de la Universidad de Córdoba (grados en Educación Infantil, Educación Primaria y Psicología).</p><p>Incluye actividades interactivas y autoevaluaciones (Google Apps Script y Genially) orientadas al aprendizaje activo, la autorregulación y la metacognición; prácticas basadas en casos (diseño de un plan de convivencia a partir de contextos de centro ficticios; análisis de muestras reales de lenguaje infantil); una dinámica de aula sobre el procesamiento de la información social; una lectura complementaria sobre el desarrollo y la evaluación de la teoría de la mente; y un taller transversal sobre normas APA 7.ª edición.</p><p>Los recursos se organizan en un catálogo web público, filtrable por asignatura, tipo, formato y tema: <a href=\"https://anabravo-uco.github.io/banco-recursos/\">https://anabravo-uco.github.io/banco-recursos/</a>. Cada recurso tiene una ficha con sus materiales, su autoría descrita con la taxonomía CRediT y su forma de cita. Este depósito contiene los datos del catálogo (_data/recursos), los materiales descargables (materiales/) y el código de la web.</p><p>Se utilizan desde el curso 2024-25 (Psicología de la Convivencia Escolar en Educación Infantil) y 2025-26 (Psicología del Desarrollo y Psicología de la Educación, Grado en Educación Infantil). El banco se actualiza de forma continua; cada versión publicada en Zenodo recoge el estado del catálogo en ese momento.</p>",
+  "creators": [
+    {
+      "name": "Bravo Castillo, Ana",
+      "affiliation": "Universidad de Córdoba",
+      "orcid": "0000-0003-3312-5523"
+    }
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "access_right": "open",
+  "language": "spa",
+  "keywords": [
+    "recursos educativos abiertos",
+    "Psicología de la Educación",
+    "Psicología del Desarrollo",
+    "Psicología de la Convivencia Escolar",
+    "Educación Infantil",
+    "Educación Primaria",
+    "formación inicial del profesorado",
+    "aprendizaje activo",
+    "autoevaluación",
+    "autorregulación del aprendizaje",
+    "metacognición",
+    "aprendizaje basado en casos",
+    "Google Apps Script",
+    "educación superior"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://anabravo-uco.github.io/banco-recursos/",
+      "relation": "isSupplementedBy"
+    }
+  ],
+  "notes": "Catálogo web: https://anabravo-uco.github.io/banco-recursos/. Autoría de cada recurso según la taxonomía CRediT, detallada en la ficha de cada recurso."
+}

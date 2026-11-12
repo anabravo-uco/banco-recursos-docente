@@ -1,0 +1,78 @@
+{
+  "titulo": "Análisis del desarrollo del lenguaje infantil",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología del Desarrollo",
+  "curso": "1º",
+  "tema": "Desarrollo del lenguaje",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Práctica",
+  "metodologias": [
+    "Aprendizaje basado en casos",
+    "Análisis de muestras reales"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2025",
+  "descripcion": "Práctica de análisis de dos muestras reales de habla espontánea de un niño a los 22 y a los 33 meses (nombre ficticio, con consentimiento familiar). Incluye las transcripciones, una tabla de análisis fonemático y 28 preguntas guía sobre los niveles fonológico, léxico-semántico, morfosintáctico y pragmático, el juego simbólico y las implicaciones educativas.",
+  "objetivos": [
+    "Analizar el desarrollo fonológico, léxico-semántico, morfosintáctico y pragmático a partir de muestras reales de habla.",
+    "Comparar la evolución del lenguaje de un mismo niño entre los 22 y los 33 meses.",
+    "Valorar si la evolución observada es típica para la edad y extraer implicaciones educativas para el aula de Infantil."
+  ],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Práctica completa",
+      "formato": "Documento PDF",
+      "url": "",
+      "archivo": "/materiales/Practica_desarrollo_lenguaje_infantil.pdf"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "grupos": 1,
+      "estudiantes": null,
+      "observaciones": "Entre 50 y 60 estudiantes.",
+      "asignatura": ""
+    },
+    {
+      "curso_academico": "2026/27",
+      "grupos": 2,
+      "estudiantes": null,
+      "observaciones": "",
+      "asignatura": ""
+    }
+  ],
+  "relacionados": [],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Recursos",
+        "Visualización",
+        "Redacción – borrador original",
+        "Redacción – revisión y edición"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

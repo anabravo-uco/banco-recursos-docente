@@ -1,0 +1,64 @@
+{
+  "titulo": "Condicionamiento operante",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología de la Educación",
+  "curso": "2º",
+  "tema": "Tema 1",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Actividad interactiva",
+  "metodologias": [
+    "Aprendizaje activo"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2025",
+  "descripcion": "Actividad interactiva del tema 1 de Psicología de la Educación.",
+  "objetivos": [],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Genially",
+      "url": "https://view.genially.com/67f6723e856270ffd6f6ce2a",
+      "archivo": ""
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "grupos": 1,
+      "estudiantes": null,
+      "observaciones": "Grupo en el que se impartieron los temas 1 y 2.",
+      "asignatura": ""
+    }
+  ],
+  "relacionados": [],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Visualización",
+        "Redacción – borrador original"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

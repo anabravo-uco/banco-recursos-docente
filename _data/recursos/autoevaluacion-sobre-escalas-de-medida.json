@@ -1,0 +1,57 @@
+{
+  "titulo": "Autoevaluación sobre escalas de medida",
+  "titulacion": "Grado en Psicología",
+  "asignatura": "Estadística y Análisis de Datos Aplicados a la Psicología",
+  "curso": "",
+  "tema": "Tema 1",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Autoevaluación",
+  "metodologias": [
+    "Autoevaluación",
+    "Evaluación formativa"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2025",
+  "descripcion": "Autoevaluación del tema 1 de Estadística y Análisis de Datos Aplicados a la Psicología.",
+  "objetivos": [],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Genially",
+      "url": "https://view.genially.com/67b3af95f31d45b860803a50",
+      "archivo": ""
+    }
+  ],
+  "uso": [],
+  "relacionados": [],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Visualización",
+        "Redacción – borrador original"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

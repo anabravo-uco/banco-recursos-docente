@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Si utilizas estos recursos, cítalos como se indica a continuación."
+type: dataset
+title: "Banco de recursos educativos abiertos de Psicología Evolutiva y de la Educación"
+version: "1.0"
+date-released: 2026-11-07
+authors:
+  - family-names: "Bravo Castillo"
+    given-names: "Ana"
+    orcid: "https://orcid.org/0000-0003-3312-5523"
+    affiliation: "Universidad de Córdoba"
+license: CC-BY-NC-SA-4.0
+url: "https://anabravo-uco.github.io/banco-recursos/"
+repository-code: "https://github.com/anabravo-uco/banco-recursos"
+keywords:
+  - recursos educativos abiertos
+  - Psicología de la Educación
+  - Psicología del Desarrollo
+  - Educación Infantil
+  - formación inicial del profesorado
+  - aprendizaje activo
+  - autorregulación del aprendizaje

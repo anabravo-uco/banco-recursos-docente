@@ -1,0 +1,8 @@
+# Configuración mínima para GitHub Pages (Jekyll).
+# Jekyll solo se usa para unir los archivos de _data/ en datos/recursos.json y datos/sitio.json.
+title: Banco de recursos educativos abiertos
+lang: es
+exclude:
+  - README.md
+  - LICENSE
+  - CITATION.cff

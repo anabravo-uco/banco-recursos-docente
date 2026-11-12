@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banco de recursos educativos abiertos · Ana Bravo Castillo</title>
+<meta name="description" content="Recursos educativos abiertos de Psicología Evolutiva y de la Educación (Universidad de Córdoba): actividades interactivas, autoevaluaciones, prácticas y lecturas. Licencia CC BY-NC-SA 4.0.">
+<meta name="author" content="Ana Bravo Castillo">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <svg width="30" height="30" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="#411e61"/><circle cx="12" cy="13" r="3.2" fill="#fff"/><circle cx="22" cy="13" r="3.2" fill="#e1c02e"/><path d="M8 25c1-4 7-4 8 0M18 25c1-4 7-4 8 0" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+      <span id="brandName">Banco de recursos educativos</span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#acerca">Acerca de</a>
+      <a href="#citar">Cómo citar</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Recursos educativos abiertos · <span id="heroUni">Universidad de Córdoba</span></p>
+        <h1 id="heroTitle">Banco de recursos educativos <em>abiertos</em></h1>
+        <p class="lead" id="heroLead"></p>
+        <p class="byline" id="byline"></p>
+      </div>
+      <div class="stats" id="stats" aria-label="Resumen del banco">
+        <div class="stat"><b id="sTotal">—</b><span>recursos</span></div>
+        <div class="stat"><b id="sDisp">—</b><span>disponibles</span></div>
+        <div class="stat"><b id="sAsig">—</b><span>asignaturas</span></div>
+        <div class="stat"><b id="sTit">—</b><span>titulaciones</span></div>
+        <div class="stat" id="sPartWrap" hidden><b id="sPart">—</b><span>participaciones de estudiantes</span></div>
+        <div class="stat" id="sVisWrap" hidden><b id="sVis">—</b><span>visitas a la web</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalogo" class="wrap" aria-label="Catálogo de recursos">
+    <div class="filters">
+      <div class="filters-top">
+        <label class="field search">
+          <span class="sr-only">Buscar</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input class="input" id="q" type="search" placeholder="Buscar por título, tema, objetivos…" autocomplete="off">
+        </label>
+        <label class="sort"><span>Ordenar</span>
+          <select class="select" id="fOrden">
+            <option value="asignatura">Por asignatura</option>
+            <option value="nombre">Nombre (A–Z)</option>
+            <option value="recientes">Más recientes</option>
+            <option value="cursos">Más cursos de uso</option>
+          </select>
+        </label>
+      </div>
+      <div class="filters-row">
+        <label class="field"><span class="sr-only">Titulación</span><select class="select" id="fTit"><option value="">Todas las titulaciones</option></select></label>
+        <label class="field"><span class="sr-only">Tipo de recurso</span><select class="select" id="fTipo"><option value="">Todos los tipos</option></select></label>
+        <label class="field"><span class="sr-only">Formato</span><select class="select" id="fFormato"><option value="">Todos los formatos</option></select></label>
+        <label class="field"><span class="sr-only">Tema</span><select class="select" id="fTema"><option value="">Todos los temas</option></select></label>
+        <label class="field"><span class="sr-only">Curso académico</span><select class="select" id="fCurso"><option value="">Cualquier curso académico</option></select></label>
+        <label class="field"><span class="sr-only">Metodología</span><select class="select" id="fMet"><option value="">Todas las metodologías</option></select></label>
+        <label class="field" id="fAccWrap" hidden><span class="sr-only">Acceso</span><select class="select" id="fAcc"><option value="">Cualquier acceso</option><option>Abierto</option><option>Bajo solicitud</option></select></label>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Filtrar por asignatura"></div>
+    </div>
+    <div class="results-bar" aria-live="polite">
+      <span id="count"></span>
+      <button class="linkbtn" id="reset" hidden>Quitar filtros</button>
+    </div>
+    <div id="lista"><p class="empty">Cargando recursos…</p></div>
+  </section>
+
+  <section id="acerca" class="section">
+    <div class="wrap">
+      <h2>Acerca del banco</h2>
+      <div class="cols">
+        <div class="panel">
+          <h3>Qué es</h3>
+          <p id="acercaTexto"></p>
+        </div>
+        <div class="panel">
+          <h3>Autoría</h3>
+          <p>La autoría de cada recurso se describe con la taxonomía <a href="https://credit.niso.org/" target="_blank" rel="noopener">CRediT</a>: qué roles ha desempeñado cada persona (conceptualización, metodología, software…) y con qué grado de participación (principal, igual o de apoyo).</p>
+        </div>
+        <div class="panel">
+          <h3>Licencia</h3>
+          <p>Salvo que se indique otra cosa, los recursos se publican con licencia <a id="licLink" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>: puedes usarlos y adaptarlos sin fines comerciales, citando la autoría y compartiendo tus adaptaciones con la misma licencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="citar" class="section">
+    <div class="wrap">
+      <h2>Cómo citar</h2>
+      <div class="cite" id="citaBanco"></div>
+      <button class="btn ghost copy" id="copiarCita">Copiar cita</button>
+      <div id="doiBadge"></div>
+      <p class="note">Cada recurso tiene su propia cita en su ficha.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span id="footAutora"></span>
+    <span class="cc">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M10.2 9.8a3 3 0 1 0 0 4.4M16.2 9.8a3 3 0 1 0 0 4.4"/></svg>
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>
+    </span>
+  </div>
+</footer>
+
+<script src="assets/js/comun.js"></script>
+<script src="assets/js/catalogo.js"></script>
+</body>
+</html>

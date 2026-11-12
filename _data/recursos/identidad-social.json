@@ -1,0 +1,72 @@
+{
+  "titulo": "Identidad social",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología del Desarrollo",
+  "curso": "1º",
+  "tema": "Tema 5",
+  "transversal": false,
+  "otras_asignaturas": [],
+  "tipo": "Actividad interactiva",
+  "metodologias": [
+    "Aprendizaje activo"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2025",
+  "descripcion": "Actividad interactiva del tema 5 de Psicología del Desarrollo.",
+  "objetivos": [],
+  "competencias": [],
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Aplicación web (Google Apps Script)",
+      "url": "",
+      "archivo": ""
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "grupos": 1,
+      "estudiantes": null,
+      "observaciones": "Entre 50 y 60 estudiantes.",
+      "asignatura": ""
+    },
+    {
+      "curso_academico": "2026/27",
+      "grupos": 2,
+      "estudiantes": null,
+      "observaciones": "",
+      "asignatura": ""
+    }
+  ],
+  "relacionados": [],
+  "apartados": [],
+  "autoria": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Bravo Castillo",
+      "orcid": "0000-0003-3312-5523",
+      "institucion": "Universidad de Córdoba",
+      "roles": [
+        "Conceptualización",
+        "Metodología",
+        "Software",
+        "Visualización",
+        "Redacción – borrador original"
+      ],
+      "grado": "Principal",
+      "porcentaje": 100
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar",
+    "herramientas": [],
+    "otra_herramienta": "",
+    "fines": [],
+    "grado": "",
+    "aclaracion": ""
+  },
+  "actualizado": "2026-11-12"
+}

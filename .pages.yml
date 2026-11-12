@@ -1,0 +1,458 @@
+# Panel de edición (Pages CMS · https://app.pagescms.org)
+# Solo pueden entrar las personas con permiso de escritura en este repositorio.
+# Para añadir una opción nueva a un desplegable (p. ej., una asignatura o una metodología),
+# añádela a su lista "values".
+
+media:
+  input: materiales
+  output: /materiales
+
+content:
+  - name: recursos
+    label: Recursos
+    type: collection
+    path: _data/recursos
+    format: json
+    filename:
+      template: "{fields.titulo}.json"
+      field: create
+    view:
+      primary: titulo
+      fields: [titulo, asignatura, tema, estado]
+      sort: [titulo, asignatura, tema, actualizado]
+      default:
+        sort: asignatura
+        order: asc
+      search: [titulo, asignatura, tema, descripcion]
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: titulacion
+        label: Titulación principal
+        type: select
+        required: true
+        options:
+          values:
+            - Grado en Educación Infantil
+            - Grado en Educación Primaria
+            - Grado en Psicología
+            - Varias titulaciones
+      - name: asignatura
+        label: Asignatura principal
+        type: select
+        required: true
+        description: Es la asignatura en la que aparece agrupado el recurso en la web.
+        options:
+          values:
+            - Psicología del Desarrollo
+            - Psicología de la Educación
+            - Psicología de la Convivencia Escolar en Educación Infantil
+            - Psicología de la Educación y del Desarrollo
+            - Estadística y Análisis de Datos Aplicados a la Psicología
+            - Transversal
+      - name: curso
+        label: Curso
+        type: select
+        description: Déjalo vacío si el recurso se usa en varios cursos.
+        options:
+          values: ["1º", "2º", "3º", "4º", "Máster"]
+      - name: tema
+        label: Tema
+        type: string
+        description: "Por ejemplo: Tema 3. Se usa para ordenar y filtrar."
+      - name: transversal
+        label: Recurso transversal
+        type: boolean
+        default: false
+        description: Actívalo si el recurso se puede utilizar en cualquier asignatura.
+      - name: otras_asignaturas
+        label: Otras asignaturas en las que se usa
+        type: object
+        description: Además de la asignatura principal. El recurso aparecerá también al filtrar por estas asignaturas.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{asignatura} · {titulacion}"
+        fields:
+          - name: titulacion
+            label: Titulación
+            type: select
+            options:
+              values:
+                - Grado en Educación Infantil
+                - Grado en Educación Primaria
+                - Grado en Psicología
+                - Varias titulaciones
+          - name: asignatura
+            label: Asignatura
+            type: select
+            options:
+              values:
+                - Psicología del Desarrollo
+                - Psicología de la Educación
+                - Psicología de la Convivencia Escolar en Educación Infantil
+                - Psicología de la Educación y del Desarrollo
+                - Estadística y Análisis de Datos Aplicados a la Psicología
+          - name: curso
+            label: Curso
+            type: select
+            options:
+              values: ["1º", "2º", "3º", "4º", "Máster"]
+      - name: tipo
+        label: Tipo de recurso
+        type: select
+        required: true
+        options:
+          values:
+            - Actividad interactiva
+            - Autoevaluación
+            - Taller
+            - Práctica
+            - Dinámica de aula
+            - Lectura complementaria
+            - Manual
+            - Otro
+      - name: metodologias
+        label: Metodologías
+        type: select
+        description: Puedes elegir varias. Se usan para el filtro «Metodología» del catálogo.
+        options:
+          multiple: true
+          values:
+            - Aprendizaje activo
+            - Aprendizaje basado en casos
+            - Aprendizaje basado en proyectos
+            - Aprendizaje cooperativo
+            - Aprendizaje basado en juegos y gamificación
+            - Aula invertida
+            - Autoevaluación
+            - Coevaluación y heteroevaluación
+            - Evaluación formativa
+            - Autorregulación y metacognición
+            - Análisis de muestras reales
+            - Dinámica de grupo
+            - Otra
+      - name: estado
+        label: Estado
+        type: select
+        default: Disponible
+        description: Si está «En preparación», en la web aparece como «Próximamente».
+        options:
+          values: [Disponible, En preparación]
+      - name: acceso
+        label: Acceso
+        type: select
+        default: Abierto
+        description: «Bajo solicitud» oculta los enlaces y muestra un botón para pedirte el recurso por correo.
+        options:
+          values: [Abierto, Bajo solicitud]
+      - name: visible
+        label: Mostrar en la web
+        type: boolean
+        default: true
+        description: Desactívalo para ocultar el recurso sin borrarlo.
+      - name: anio
+        label: Año de elaboración
+        type: string
+        pattern: "^$|^[0-9]{4}$"
+        description: Se usa en la cita del recurso (p. ej., 2024).
+      - name: descripcion
+        label: Descripción
+        type: text
+      - name: objetivos
+        label: Objetivos
+        type: string
+        list: true
+        description: Un objetivo en cada línea. Pulsa «Add» para añadir otro.
+      - name: competencias
+        label: Competencias (opcional)
+        type: object
+        description: Las competencias de la guía docente que trabaja el recurso.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{codigo} {descripcion}"
+        fields:
+          - name: codigo
+            label: Código (opcional)
+            type: string
+            description: "El de la guía docente, p. ej. CE3."
+          - name: descripcion
+            label: Competencia
+            type: text
+      - name: materiales
+        label: Materiales
+        type: object
+        description: "Cada recurso puede tener varios materiales: la app, un PDF, una rúbrica…"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nombre} · {formato}"
+        fields:
+          - name: nombre
+            label: Nombre del material
+            type: string
+            description: "Por ejemplo: Abrir la actividad, Guía de la práctica, Rúbrica."
+          - name: formato
+            label: Formato
+            type: select
+            options:
+              values:
+                - Aplicación web (Google Apps Script)
+                - Genially
+                - Canva
+                - Documento PDF
+                - Imagen
+                - Vídeo
+                - Enlace web
+                - Otro
+          - name: url
+            label: Enlace (URL)
+            type: string
+            pattern: "^$|^https://.+"
+            description: Pega la dirección completa (https://…). Si haces una implementación nueva de la app, sustituye aquí la URL antigua.
+          - name: archivo
+            label: Archivo
+            type: file
+            description: O sube un archivo (PDF, imagen…). Se guarda en la carpeta «materiales».
+            options:
+              extensions: [pdf, png, jpg, jpeg, svg, docx, pptx, xlsx, zip, mp4]
+      - name: uso
+        label: Uso en el aula por curso académico
+        type: object
+        description: Una entrada por curso académico (y por asignatura, si el recurso se usa en varias). Es la evidencia de uso del recurso.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{curso_academico} · {grupos} grupos · {estudiantes} estudiantes"
+        fields:
+          - name: curso_academico
+            label: Curso académico
+            type: string
+            required: true
+            pattern: "^[0-9]{4}[-/][0-9]{2}$"
+            description: "Formato 2024/25."
+          - name: asignatura
+            label: Asignatura (solo si el recurso se usa en varias)
+            type: select
+            description: Si lo dejas vacío, se cuenta en la asignatura principal.
+            options:
+              values:
+                - Psicología del Desarrollo
+                - Psicología de la Educación
+                - Psicología de la Convivencia Escolar en Educación Infantil
+                - Psicología de la Educación y del Desarrollo
+                - Estadística y Análisis de Datos Aplicados a la Psicología
+          - name: grupos
+            label: Número de grupos
+            type: number
+            options:
+              min: 0
+          - name: estudiantes
+            label: Número total de estudiantes
+            type: number
+            options:
+              min: 0
+          - name: observaciones
+            label: Observaciones
+            type: text
+            description: "Opcional. Por ejemplo: temas impartidos, combinado con Wooclap, grupos de mañana y tarde…"
+      - name: relacionados
+        label: Recursos relacionados («Ver también»)
+        type: reference
+        description: Elige otros recursos del banco sobre el mismo contenido. El enlace aparece en las dos fichas.
+        options:
+          collection: recursos
+          multiple: true
+          search: titulo
+          value: "{path}"
+          label: "{primary}"
+      - name: apartados
+        label: Apartados adicionales
+        type: object
+        description: "Añade los apartados que quieras con su propio título: Metodología, Temporalización, Resultados, Valoración del alumnado…"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titulo}"
+        fields:
+          - name: titulo
+            label: Título del apartado
+            type: string
+            required: true
+          - name: contenido
+            label: Contenido
+            type: text
+            description: "Para hacer una lista, empieza cada línea con un guion (- )."
+      - name: autoria
+        label: Autoría (taxonomía CRediT)
+        type: object
+        description: Una entrada por persona que ha participado en el recurso.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nombre} {apellidos} · {grado}"
+        fields:
+          - name: nombre
+            label: Nombre
+            type: string
+          - name: apellidos
+            label: Apellidos
+            type: string
+          - name: orcid
+            label: ORCID
+            type: string
+            pattern: "^$|^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]$"
+            description: "Solo el número, por ejemplo 0000-0003-3312-5523."
+          - name: institucion
+            label: Institución
+            type: string
+          - name: roles
+            label: Roles CRediT
+            type: select
+            options:
+              multiple: true
+              values:
+                - Conceptualización
+                - Curación de datos
+                - Análisis formal
+                - Adquisición de financiación
+                - Investigación
+                - Metodología
+                - Administración del proyecto
+                - Recursos
+                - Software
+                - Supervisión
+                - Validación
+                - Visualización
+                - Redacción – borrador original
+                - Redacción – revisión y edición
+          - name: grado
+            label: Grado de participación
+            type: select
+            options:
+              values: [Principal, Igual, De apoyo]
+          - name: porcentaje
+            label: Porcentaje de participación (%)
+            type: number
+            options:
+              min: 0
+              max: 100
+      - name: ia
+        label: Declaración de uso de inteligencia artificial generativa
+        type: object
+        description: "«Sin declarar» no muestra nada. «No» muestra que no se ha utilizado. «Sí» genera la declaración a partir de lo que marques."
+        fields:
+          - name: usada
+            label: ¿Se ha utilizado IA generativa?
+            type: select
+            default: Sin declarar
+            options:
+              values: [Sin declarar, "No", "Sí"]
+          - name: herramientas
+            label: Herramientas
+            type: select
+            options:
+              multiple: true
+              values: [ChatGPT, Claude, Gemini, Microsoft Copilot, IA integrada en Genially, IA integrada en Canva, Generador de imágenes]
+          - name: otra_herramienta
+            label: Otra herramienta (opcional)
+            type: string
+          - name: fines
+            label: Para qué se ha utilizado
+            type: select
+            options:
+              multiple: true
+              values:
+                - proponer ideas o la estructura del recurso
+                - redactar o reformular textos
+                - generar preguntas, ítems o casos prácticos
+                - crear imágenes o elementos gráficos
+                - escribir o depurar el código de la aplicación
+                - revisar la ortografía y el estilo
+          - name: grado
+            label: Grado de uso
+            type: select
+            options:
+              values: [Puntual, Parcial, Sustancial]
+          - name: aclaracion
+            label: Aclaración adicional (opcional)
+            type: text
+            description: "Por ejemplo: las imágenes de los personajes se generaron con IA."
+      - name: actualizado
+        label: Última actualización
+        type: date
+        options:
+          format: yyyy-MM-dd
+
+  - name: sitio
+    label: Ajustes del sitio
+    type: file
+    path: _data/sitio.json
+    format: json
+    fields:
+      - name: titulo
+        label: Título del banco
+        type: string
+      - name: titulo_corto
+        label: Título corto (cabecera)
+        type: string
+      - name: presentacion
+        label: Presentación
+        type: text
+      - name: autora
+        label: Autora
+        type: string
+      - name: autoria_cita
+        label: Autoría para citar
+        type: string
+        description: "Formato APA, p. ej. Bravo Castillo, A."
+      - name: orcid
+        label: ORCID
+        type: string
+      - name: institucion
+        label: Institución
+        type: string
+      - name: departamento
+        label: Departamento
+        type: string
+      - name: area
+        label: Área
+        type: string
+      - name: anio
+        label: Año de publicación del banco (para citar)
+        type: string
+      - name: version
+        label: Versión
+        type: string
+        description: Ponla igual que la versión que publiques en GitHub (p. ej., 1.0).
+      - name: doi
+        label: DOI de Zenodo
+        type: string
+        description: El DOI general («Cite all versions»), p. ej. 10.5281/zenodo.1234567.
+      - name: licencia
+        label: Licencia
+        type: string
+      - name: licencia_url
+        label: Enlace de la licencia
+        type: string
+      - name: correo_solicitudes
+        label: Correo para solicitudes de acceso
+        type: string
+        description: Se usa en el botón «Solicitar acceso» de los recursos con acceso bajo solicitud. Es visible en la web.
+      - name: cursos_academicos
+        label: Cursos académicos que se muestran en el catálogo
+        type: string
+        list: true
+        description: "Formato 2024/25. Los cursos que aparezcan en el uso de algún recurso se añaden solos."
+      - name: orden_asignaturas
+        label: Orden de las asignaturas en la web
+        type: string
+        list: true
+        description: Escribe el nombre exactamente igual que en el recurso.
+      - name: goatcounter
+        label: Código de GoatCounter (visitas, opcional)
+        type: string
+        description: Si creas una cuenta gratuita en goatcounter.com, escribe aquí tu código (la parte antes de .goatcounter.com).
