@@ -1,11 +1,22 @@
 {
-  "titulo": "Dinámica: procesamiento de la información social",
+  "titulo": "Comprendiendo la información social",
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Educación",
   "curso": "2º",
   "tema": "Tema 4",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    },
+    {
+      "titulacion": "Grado en Psicología",
+      "asignatura": "Psicología de la Educación II",
+      "curso": "3º"
+    }
+  ],
   "tipo": "Dinámica de aula",
   "metodologias": [
     "Aprendizaje cooperativo",
@@ -14,40 +25,51 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2025",
-  "descripcion": "Dinámica por parejas con tres versiones de una misma situación de recreo. Cada estudiante identifica las fases del modelo de procesamiento de la información social (Crick y Dodge, 1994; Lemerise y Arsenio, 2000) y analiza cómo la interpretación y las emociones de Mario orientan su conducta. Complementa la actividad interactiva «Procesamiento de la información social».",
+  "anio": "2020",
+  "descripcion": "Dinámica en grupos de tres con tres versiones de una misma situación de recreo. Cada grupo debe identificar las fases del modelo de procesamiento de la información social (Crick y Dodge, 1994; Lemerise y Arsenio, 2000) y analiza cómo la interpretación y las emociones de Mario orientan su conducta. La actividad se organiza en dos fases.\nEsta actividad es previa a la actividad interactiva «Procesamiento de la información social».",
   "objetivos": [
     "Comprender cómo la interpretación de una situación social y las emociones que la acompañan orientan el comportamiento infantil y sus consecuencias en las relaciones con los iguales.",
     "Identificar las fases del modelo de procesamiento de la información social en situaciones cotidianas."
   ],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Dinámica y situaciones",
       "formato": "Documento PDF",
-      "url": "",
       "archivo": "/materiales/Dinamica_procesamiento_informacion_social.pdf"
     },
     {
       "nombre": "Esquema del modelo",
       "formato": "Imagen",
-      "url": "",
       "archivo": "/materiales/Esquema_procesamiento_informacion_social.png"
     }
   ],
   "uso": [
     {
-      "curso_academico": "2025/26",
+      "curso_academico": "2020/21",
+      "grupos": 2,
+      "estudiantes": 31
+    },
+    {
+      "curso_academico": "2022/23",
+      "asignatura": "Psicología de la Educación II",
+      "grupos": 46
+    },
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 4 y 5.",
-      "asignatura": ""
+      "estudiantes": 35
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 10
     }
   ],
   "relacionados": [
     "_data/recursos/procesamiento-de-la-informacion-social.json"
   ],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -67,12 +89,11 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "fines": [
+      "crear imágenes o elementos gráficos"
+    ],
+    "grado": "Puntual"
   },
   "actualizado": "2026-11-12"
 }
