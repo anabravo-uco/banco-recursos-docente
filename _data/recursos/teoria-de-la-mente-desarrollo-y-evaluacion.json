@@ -5,9 +5,19 @@
   "curso": "1º",
   "tema": "Tema 3",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Psicología",
+      "asignatura": "Psicología de la Educación",
+      "curso": "3º"
+    },
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Lectura complementaria",
-  "metodologias": [],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
@@ -15,37 +25,44 @@
   "descripcion": "Lectura de profundización sobre el desarrollo de la teoría de la mente en la infancia y su evaluación mediante tareas de falsa creencia y la escala de Wellman y Liu (2004), con anexos de material para aplicar las tareas. Complementa la actividad interactiva «Teoría de la mente».",
   "objetivos": [
     "Comprender el desarrollo de la teoría de la mente desde la primera infancia hasta la etapa escolar.",
-    "Conocer las principales tareas para evaluarla (falsa creencia de primer y segundo orden, escala de Wellman y Liu) y cómo aplicarlas."
+    "Conocer las principales tareas para evaluarla y cómo aplicarlas."
   ],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Lectura",
       "formato": "Documento PDF",
-      "url": "",
       "archivo": "/materiales/Teoria_de_la_mente_desarrollo_y_evaluacion.pdf"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología del Desarrollo",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Entre 50 y 60 estudiantes.",
-      "asignatura": ""
+      "estudiantes": 59
     },
     {
       "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
       "grupos": 2,
-      "estudiantes": null,
-      "observaciones": "",
-      "asignatura": ""
+      "estudiantes": 145
+    },
+    {
+      "curso_academico": "2020/21",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 2,
+      "estudiantes": 126
+    },
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 64
     }
   ],
   "relacionados": [
     "_data/recursos/teoria-de-la-mente.json"
   ],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -65,12 +82,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "crear imágenes o elementos gráficos"
+    ],
+    "grado": "Puntual"
   },
   "actualizado": "2026-11-12"
 }
