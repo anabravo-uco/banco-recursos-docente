@@ -5,7 +5,6 @@
   "curso": "2º",
   "tema": "Tema 2",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -14,28 +13,22 @@
   "acceso": "Abierto",
   "visible": true,
   "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 2 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad interactiva sobre las capacidades de la creatividad (Robson, 2006). En la Parte 1 los estudiantes deben asociar la definición con cada capacidad y en la Parte 2 deberán asociar cada capacidad con una situación aula, explicando el por qué han tomado esa decisión.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbziw8EO4Gvr3t2KuRazp5kVxZ0VLTT7VAn9lZ_p3VGj--skzM2u_-QZci9fw7Yomc-x/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 1 y 2.",
-      "asignatura": ""
+      "estudiantes": 12
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +47,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sin declarar"
   },
   "actualizado": "2026-11-12"
 }
