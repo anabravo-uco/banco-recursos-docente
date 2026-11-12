@@ -1,48 +1,19 @@
 {
-  "titulo": "Autoevaluación de la autorregulación según el modelo de Zimmerman",
+  "titulo": "Autoevaluación del modelo de Zimmerman",
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
-  "curso": "",
-  "tema": "Competencias académicas",
-  "transversal": true,
-  "otras_asignaturas": [
-    {
-      "titulacion": "Grado en Educación Infantil",
-      "asignatura": "Psicología de la Educación",
-      "curso": "2º"
-    },
-    {
-      "titulacion": "Grado en Educación Primaria",
-      "asignatura": "Psicología de la Educación y del Desarrollo",
-      "curso": ""
-    }
-  ],
   "tipo": "Autoevaluación",
-  "metodologias": [
-    "Autoevaluación",
-    "Evaluación formativa",
-    "Autorregulación y metacognición"
-  ],
   "estado": "Disponible",
-  "acceso": "Abierto",
   "visible": true,
-  "anio": "2023",
-  "descripcion": "Autoevaluación de las fases de la autorregulación del aprendizaje (modelo de Zimmerman). Se utiliza en Psicología de la Educación (Grado en Educación Infantil) y en Psicología de la Educación y del Desarrollo (Grado en Educación Primaria).",
-  "objetivos": [],
-  "competencias": [],
+  "curso_inicio": "2024-25",
+  "descripcion": "Autoevaluación de las fases de la autorregulación del aprendizaje siguiendo el modelo cíclico de Zimmerman (2013). Se utiliza en Psicología de la Educación (Grado en Educación Infantil) y en Psicología de la Educación y del Desarrollo (Grado en Educación Primaria).",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Genially",
-      "url": "https://view.genially.com/641c655b51a37d0017ac5c78",
-      "archivo": ""
+      "url": "https://view.genially.com/641c655b51a37d0017ac5c78"
     }
   ],
-  "uso": [],
-  "relacionados": [
-    "_data/recursos/zimmerman-en-el-aula.json"
-  ],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -59,13 +30,5 @@
       "porcentaje": 100
     }
   ],
-  "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
-  },
   "actualizado": "2026-11-12"
 }
