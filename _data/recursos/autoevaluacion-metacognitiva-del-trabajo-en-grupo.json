@@ -1,35 +1,20 @@
 {
-  "titulo": "Autoevaluación metacognitiva del trabajo en grupo",
+  "titulo": "Autoevaluación del trabajo en grupo",
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
-  "curso": "",
-  "tema": "Competencias académicas",
-  "transversal": true,
-  "otras_asignaturas": [],
+  "tema": "Evaluación metacognitiva del trabajo en equipo",
   "tipo": "Autoevaluación",
-  "metodologias": [
-    "Autoevaluación",
-    "Evaluación formativa",
-    "Autorregulación y metacognición"
-  ],
   "estado": "Disponible",
-  "acceso": "Abierto",
   "visible": true,
-  "anio": "",
-  "descripcion": "Autoevaluación para que el alumnado reflexione sobre su funcionamiento y su aportación en el trabajo en grupo.",
-  "objetivos": [],
-  "competencias": [],
+  "curso_inicio": "2024-25",
+  "descripcion": "Autoevaluación para que el alumnado reflexione sobre el funcionamiento y desarrollo del trabajo en equipo, así como su propia aportación en el mismo.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbyLA7f7b7srPa4hFYbP61iEAwERg_mwu-iOWfNu8Fo1IbqF2qTc9rHWmC2oXRq_3D0IRw/exec"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -47,13 +32,5 @@
       "porcentaje": 100
     }
   ],
-  "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
-  },
   "actualizado": "2026-11-12"
 }
