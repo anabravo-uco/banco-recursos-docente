@@ -5,7 +5,13 @@
   "curso": "1º",
   "tema": "Tema 3",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -13,36 +19,41 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 3 de Psicología del Desarrollo.",
-  "objetivos": [],
-  "competencias": [],
+  "anio": "2024",
+  "descripcion": "La actividad búsca que en equipos (2-3 miembros) trabajan los tipos de memoría. Primero se hace la parte de Genially donde deben relacionar cada tipo de memoria con su definición y luego deben hacer la parte del html donde proponen ejemplos de aula donde se ponga en práctica ese tipo de memoria.",
   "materiales": [
     {
-      "nombre": "Abrir la actividad",
+      "nombre": "Tipos de memoria definición",
+      "formato": "Genially",
+      "url": "https://app.genially.com/editor/6af5fe8996afd8efe7612c1a"
+    },
+    {
+      "nombre": "Tipos de memoría ejemplos",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbzfDgByWfIn5e_XFU2kWOzneiDxS1zdNR9eUel_tiksLE_iNdfidkoP0NssDdy4SEtT8w/exec"
     }
   ],
   "uso": [
     {
-      "curso_academico": "2025/26",
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Entre 50 y 60 estudiantes.",
-      "asignatura": ""
+      "estudiantes": 40,
+      "observaciones": "Este grupo no hizo la actividad del html, sino que lo entregó en Moodle"
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 51
     },
     {
       "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
       "grupos": 2,
-      "estudiantes": null,
-      "observaciones": "",
-      "asignatura": ""
+      "estudiantes": 75
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -61,12 +72,13 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ]
   },
   "actualizado": "2026-11-12"
 }
