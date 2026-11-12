@@ -3,9 +3,8 @@
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología del Desarrollo",
   "curso": "1º",
-  "tema": "Desarrollo del lenguaje",
+  "tema": "Tema 4. Desarrollo del lenguaje",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Práctica",
   "metodologias": [
     "Aprendizaje basado en casos",
@@ -21,33 +20,27 @@
     "Comparar la evolución del lenguaje de un mismo niño entre los 22 y los 33 meses.",
     "Valorar si la evolución observada es típica para la edad y extraer implicaciones educativas para el aula de Infantil."
   ],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Práctica completa",
       "formato": "Documento PDF",
-      "url": "",
       "archivo": "/materiales/Practica_desarrollo_lenguaje_infantil.pdf"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología del Desarrollo",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Entre 50 y 60 estudiantes.",
-      "asignatura": ""
+      "estudiantes": 59
     },
     {
       "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
       "grupos": 2,
-      "estudiantes": null,
-      "observaciones": "",
-      "asignatura": ""
+      "estudiantes": 145
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -67,12 +60,10 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ]
   },
   "actualizado": "2026-11-12"
 }
