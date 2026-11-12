@@ -1,33 +1,20 @@
 {
-  "titulo": "Taller de normas APA 7.ª edición",
+  "titulo": "Taller de normas APA 7ª edición",
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
-  "curso": "",
   "tema": "Competencias académicas",
-  "transversal": true,
-  "otras_asignaturas": [],
   "tipo": "Taller",
-  "metodologias": [
-    "Aprendizaje activo"
-  ],
   "estado": "Disponible",
-  "acceso": "Abierto",
   "visible": true,
-  "anio": "",
+  "curso_inicio": "2020-21",
   "descripcion": "Taller para aprender a citar y elaborar la lista de referencias según las normas APA (7.ª edición) en los trabajos académicos.",
-  "objetivos": [],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Canva",
-      "url": "",
-      "archivo": ""
+      "url": "https://canva.link/5pimuwf4c7vs450"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -44,13 +31,5 @@
       "porcentaje": 100
     }
   ],
-  "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
-  },
   "actualizado": "2026-11-12"
 }
