@@ -1,17 +1,27 @@
 {
-  "titulo": "Autoevaluación del modelo de Zimmerman",
+  "titulo": "Autoevaluación del modelo cíclico de Zimmerman",
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
+  "transversal": false,
   "tipo": "Autoevaluación",
   "estado": "Disponible",
+  "acceso": "Abierto",
   "visible": true,
-  "curso_inicio": "2024-25",
+  "anio": "2024",
   "descripcion": "Autoevaluación de las fases de la autorregulación del aprendizaje siguiendo el modelo cíclico de Zimmerman (2013). Se utiliza en Psicología de la Educación (Grado en Educación Infantil) y en Psicología de la Educación y del Desarrollo (Grado en Educación Primaria).",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Genially",
       "url": "https://view.genially.com/641c655b51a37d0017ac5c78"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 89
     }
   ],
   "autoria": [
@@ -30,5 +40,8 @@
       "porcentaje": 100
     }
   ],
+  "ia": {
+    "usada": "No"
+  },
   "actualizado": "2026-11-12"
 }
