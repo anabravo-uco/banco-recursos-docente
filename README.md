@@ -1,8 +1,8 @@
-# Banco de recursos educativos abiertos de Psicología Evolutiva y de la Educación
+# Banco de recursos educativos en abiertos para asignaturas del área de Psicología Evolutiva y de la Educación
 
 **Ana Bravo Castillo** · Departamento de Psicología · Universidad de Córdoba · [ORCID 0000-0003-3312-5523](https://orcid.org/0000-0003-3312-5523)
 
-Actividades interactivas, autoevaluaciones, prácticas, dinámicas de aula y lecturas para el aprendizaje activo y autorregulado en las asignaturas de Psicología Evolutiva y de la Educación de los grados de Educación Infantil, Educación Primaria y Psicología.
+Actividades interactivas, autoevaluaciones, dinámicas de aula, lecturas para el aprendizaje activo y autorregulado, así como recursos para el desarrollo de las actividades de prácticas en grupos, en asignaturas del área de Psicología Evolutiva y de la Educación de los grados de Educación Infantil, Educación Primaria y Psicología.
 
 **Catálogo web:** https://anabravo-uco.github.io/banco-recursos/
 
@@ -25,7 +25,7 @@ Cada recurso tiene su propia cita en su ficha del catálogo.
 
 ## Autoría
 
-La participación de cada persona en cada recurso se describe con la taxonomía [CRediT](https://credit.niso.org/) (roles y grado de participación: principal, igual o de apoyo).
+La participación de cada persona en cada recurso se describe siguiendo la taxonomía [CRediT](https://credit.niso.org/) (roles y grado de participación: principal, igual o de apoyo).
 
 ## Licencia
 
