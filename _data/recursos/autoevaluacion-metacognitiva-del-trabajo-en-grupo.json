@@ -3,16 +3,32 @@
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
   "tema": "Evaluación metacognitiva del trabajo en equipo",
+  "transversal": false,
   "tipo": "Autoevaluación",
   "estado": "Disponible",
+  "acceso": "Abierto",
   "visible": true,
-  "curso_inicio": "2024-25",
+  "anio": "2024",
   "descripcion": "Autoevaluación para que el alumnado reflexione sobre el funcionamiento y desarrollo del trabajo en equipo, así como su propia aportación en el mismo.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
       "url": "https://script.google.com/macros/s/AKfycbyLA7f7b7srPa4hFYbP61iEAwERg_mwu-iOWfNu8Fo1IbqF2qTc9rHWmC2oXRq_3D0IRw/exec"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Convivencia Escolar en Educación Infantil",
+      "grupos": 1,
+      "estudiantes": 66
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 59
     }
   ],
   "autoria": [
@@ -32,5 +48,16 @@
       "porcentaje": 100
     }
   ],
+  "ia": {
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial",
+    "aclaracion": "Se ha usado para generar el html"
+  },
   "actualizado": "2026-11-12"
 }
