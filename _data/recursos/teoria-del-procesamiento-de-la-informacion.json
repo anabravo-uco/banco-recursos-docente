@@ -2,10 +2,16 @@
   "titulo": "Teoría del procesamiento de la información",
   "titulacion": "Grado en Educación Primaria",
   "asignatura": "Psicología de la Educación y del Desarrollo",
-  "curso": "",
+  "curso": "1º",
   "tema": "Tema 2",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Infantil",
+      "asignatura": "Psicología de la Educación",
+      "curso": "2º"
+    }
+  ],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -14,20 +20,28 @@
   "acceso": "Abierto",
   "visible": true,
   "anio": "2024",
-  "descripcion": "Actividad interactiva del tema 2 de Psicología de la Educación y del Desarrollo.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad que busca activar conocimiento previo para presentar la teoría del procesamiento de la información",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Genially",
-      "url": "https://view.genially.com/670ff312c07a8abdc51e8f76",
-      "archivo": ""
+      "url": "https://view.genially.com/670ff312c07a8abdc51e8f76"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
+  "uso": [
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 55
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 30
+    }
+  ],
   "autoria": [
     {
       "nombre": "Ana",
@@ -45,12 +59,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "No"
   },
   "actualizado": "2026-11-12"
 }
