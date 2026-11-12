@@ -3,10 +3,12 @@
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
   "tema": "Competencias académicas",
+  "transversal": false,
   "tipo": "Taller",
   "estado": "Disponible",
+  "acceso": "Abierto",
   "visible": true,
-  "curso_inicio": "2020-21",
+  "anio": "2020",
   "descripcion": "Taller para aprender a citar y elaborar la lista de referencias según las normas APA (7ª edición) en los trabajos académicos. Se puede utilizar como recuerdo en clase pero también para la elaboración de los Trabajo de Fin de Grado, Trabajo de Fin de Máster y doctorado.",
   "materiales": [
     {
@@ -31,5 +33,8 @@
       "porcentaje": 100
     }
   ],
+  "ia": {
+    "usada": "No"
+  },
   "actualizado": "2026-11-12"
 }
