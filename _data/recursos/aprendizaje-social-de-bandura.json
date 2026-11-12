@@ -5,37 +5,38 @@
   "curso": "2º",
   "tema": "Tema 1",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Actividad interactiva",
   "metodologias": [
-    "Aprendizaje activo"
+    "Aprendizaje activo",
+    "Aprendizaje cooperativo"
   ],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
   "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 1 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad dirigida a profundizar en la compresión de la teoría cognitivo-social de Bandura a partir del análisis de dos situaciones de aula",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbzlWerv4iE_mh6uS8ojeHuFJkSGcwXnm6rargFFN1kHGjmHwMdk80DHun0p-ldtMQ/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 1 y 2.",
-      "asignatura": ""
+      "estudiantes": 41
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +55,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sin declarar"
   },
   "actualizado": "2026-11-12"
 }
