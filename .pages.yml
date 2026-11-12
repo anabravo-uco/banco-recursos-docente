@@ -1,7 +1,7 @@
 # Panel de edición (Pages CMS · https://app.pagescms.org)
 # Solo pueden entrar las personas con permiso de escritura en este repositorio.
 # Para añadir una opción nueva a un desplegable (p. ej., una asignatura o una metodología),
-# añádela a su lista "values".
+# añádela a su lista "values". hola
 
 media:
   input: materiales
