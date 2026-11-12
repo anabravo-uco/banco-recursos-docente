@@ -5,37 +5,50 @@
   "curso": "2º",
   "tema": "Tema 1",
   "transversal": false,
-  "otras_asignaturas": [],
-  "tipo": "Actividad interactiva",
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
+  "tipo": "Autoevaluación",
   "metodologias": [
-    "Aprendizaje activo"
+    "Autoevaluación",
+    "Aprendizaje basado en juegos y gamificación"
   ],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2025",
+  "anio": "2022",
   "descripcion": "Actividad interactiva del tema 1 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Genially",
-      "url": "https://view.genially.com/67f6723e856270ffd6f6ce2a",
-      "archivo": ""
+      "url": "https://view.genially.com/67f6723e856270ffd6f6ce2a"
     }
   ],
   "uso": [
     {
-      "curso_academico": "2025/26",
+      "curso_academico": "2022/23",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 1 y 2.",
-      "asignatura": ""
+      "estudiantes": 45
+    },
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 33
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 44
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -53,12 +66,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "No"
   },
   "actualizado": "2026-11-12"
 }
