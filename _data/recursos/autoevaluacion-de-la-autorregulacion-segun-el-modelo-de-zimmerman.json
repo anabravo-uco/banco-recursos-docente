@@ -7,7 +7,7 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2024",
+  "anio": "2022",
   "descripcion": "Autoevaluación de las fases de la autorregulación del aprendizaje siguiendo el modelo cíclico de Zimmerman (2013). Se utiliza en Psicología de la Educación (Grado en Educación Infantil) y en Psicología de la Educación y del Desarrollo (Grado en Educación Primaria).",
   "materiales": [
     {
@@ -17,6 +17,12 @@
     }
   ],
   "uso": [
+    {
+      "curso_academico": "2022/23",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 50
+    },
     {
       "curso_academico": "2024/25",
       "asignatura": "Psicología de la Educación y del Desarrollo",
