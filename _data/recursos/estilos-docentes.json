@@ -5,7 +5,13 @@
   "curso": "2º",
   "tema": "Tema 5",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -14,28 +20,22 @@
   "acceso": "Abierto",
   "visible": true,
   "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 5 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad interactiva para trabajar las diferencias entre los estilos docentes descritos por Lewis",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbzFY0CZINVUEidKB7uxgpCxutHDKknhCqfbZjM7KIhpFLOLbciJNyyz5FT2mjHeDTs8/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 4 y 5.",
-      "asignatura": ""
+      "estudiantes": 9
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +54,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
