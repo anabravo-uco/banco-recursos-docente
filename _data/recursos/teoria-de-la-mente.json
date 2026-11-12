@@ -12,11 +12,6 @@
       "curso": "2º"
     },
     {
-      "titulacion": "Grado en Psicología",
-      "asignatura": "Psicología del Desarrollo",
-      "curso": "3º"
-    },
-    {
       "titulacion": "Grado en Educación Primaria",
       "asignatura": "Psicología de la Educación y del Desarrollo",
       "curso": "1º"
@@ -29,7 +24,7 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2025",
+  "anio": "2024",
   "descripcion": "Actividad para evaluar el grado de asimilación de la diferencia entre teoría de la mente y de metacognición, así como los procesos cognitivos implicados.",
   "materiales": [
     {
@@ -50,6 +45,12 @@
       "asignatura": "Psicología del Desarrollo",
       "grupos": 2,
       "estudiantes": 60
+    },
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 37
     }
   ],
   "autoria": [
