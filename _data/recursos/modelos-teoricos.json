@@ -1,41 +1,35 @@
 {
-  "titulo": "Modelos teóricos",
+  "titulo": "Modelos teóricos del aprendizaje",
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Educación",
   "curso": "2º",
   "tema": "Tema 1",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Actividad interactiva",
   "metodologias": [
-    "Aprendizaje activo"
+    "Aprendizaje activo",
+    "Evaluación formativa"
   ],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
   "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 1 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad para activar los contenidos previos que los estudiantes recuerdan de la asignatura de psicología del desarrollo.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbxtDtgISNC0nJkT1soj6UINh4vzAm1ExivVZudalTTM4dDgKSq4z_BZjX94hhWPgOb2/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 1 y 2.",
-      "asignatura": ""
+      "estudiantes": 43
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +48,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
