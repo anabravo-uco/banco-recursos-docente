@@ -63,7 +63,9 @@
     "usada": "Sí",
     "herramientas": [
       "Claude"
-    ]
+    ],
+    "grado": "Puntual",
+    "aclaracion": "Dar formato al documento"
   },
   "actualizado": "2026-11-12"
 }
