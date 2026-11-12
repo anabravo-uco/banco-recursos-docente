@@ -1,8 +1,8 @@
 {
   "titulo": "Autoevaluación de contenidos sobre competencia moral",
-  "titulacion": "Grado en Educación Infantil",
-  "asignatura": "Psicología de la Educación",
-  "curso": "2º",
+  "titulacion": "Grado en Psicología",
+  "asignatura": "Psicología de la Educación II",
+  "curso": "3º",
   "tema": "Tema 4",
   "transversal": false,
   "otras_asignaturas": [
@@ -12,7 +12,9 @@
       "curso": "1º"
     },
     {
-      "titulacion": "Grado en Psicología"
+      "titulacion": "Grado en Educación Infantil",
+      "asignatura": "Psicología de la Educación",
+      "curso": "2º"
     }
   ],
   "tipo": "Autoevaluación",
@@ -23,8 +25,8 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2025",
-  "descripcion": "Autoevaluación del tema 4 de Psicología de la Educación.",
+  "anio": "2022",
+  "descripcion": "Autoevaluación de habilidades y dimensiones de la competencia moral a partir de ejemplos.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
@@ -34,9 +36,22 @@
   ],
   "uso": [
     {
-      "curso_academico": "2025/26",
+      "curso_academico": "2022/23",
+      "asignatura": "Psicología de la Educación II",
       "grupos": 1,
-      "observaciones": "Grupo en el que se impartieron los temas 4 y 5."
+      "estudiantes": 45
+    },
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 31
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 15
     }
   ],
   "autoria": [
