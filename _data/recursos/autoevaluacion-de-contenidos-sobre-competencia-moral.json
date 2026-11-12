@@ -1,5 +1,5 @@
 {
-  "titulo": "Autoevaluación de contenidos sobre competencia moral",
+  "titulo": "Autoevaluación de la competencia moral",
   "titulacion": "Grado en Psicología",
   "asignatura": "Psicología de la Educación II",
   "curso": "3º",
@@ -71,7 +71,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar"
+    "usada": "No"
   },
   "actualizado": "2026-11-12"
 }
