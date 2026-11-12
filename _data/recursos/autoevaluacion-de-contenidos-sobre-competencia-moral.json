@@ -5,7 +5,16 @@
   "curso": "2º",
   "tema": "Tema 4",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    },
+    {
+      "titulacion": "Grado en Psicología"
+    }
+  ],
   "tipo": "Autoevaluación",
   "metodologias": [
     "Autoevaluación",
@@ -16,27 +25,20 @@
   "visible": true,
   "anio": "2025",
   "descripcion": "Autoevaluación del tema 4 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Genially",
-      "url": "https://view.genially.com/68fca24aed7c54d12226f31e",
-      "archivo": ""
+      "url": "https://view.genially.com/68fca24aed7c54d12226f31e"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 4 y 5.",
-      "asignatura": ""
+      "observaciones": "Grupo en el que se impartieron los temas 4 y 5."
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +56,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sin declarar"
   },
   "actualizado": "2026-11-12"
 }
