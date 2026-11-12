@@ -1,16 +1,15 @@
 {
-  "titulo": "Banco de recursos educativos abiertos de Psicología Evolutiva y de la Educación",
+  "titulo": "Banco de recursos educativos en abierto para asignaturas del área de Psicología Evolutiva y de la Educación",
   "titulo_corto": "Banco de recursos educativos",
-  "presentacion": "Actividades interactivas, autoevaluaciones, prácticas, dinámicas de aula y lecturas para el aprendizaje activo y autorregulado en las asignaturas de Psicología Evolutiva y de la Educación de los grados de Educación Infantil, Educación Primaria y Psicología de la Universidad de Córdoba.",
+  "presentacion": "Actividades interactivas, autoevaluaciones, dinámicas de aula, lecturas para el aprendizaje activo y autorregulado, así como recursos para el desarrollo de las actividades de prácticas en grupos, en asignaturas del área de Psicología Evolutiva y de la Educación de los grados de Educación Infantil, Educación Primaria y Psicología de la Universidad de Córdoba.",
   "autora": "Ana Bravo Castillo",
-  "autoria_cita": "Bravo Castillo, A.",
+  "autoria_cita": "Bravo, A.",
   "orcid": "0000-0003-3312-5523",
   "institucion": "Universidad de Córdoba",
   "departamento": "Departamento de Psicología",
   "area": "Psicología Evolutiva y de la Educación",
   "anio": "2026",
   "version": "1.0",
-  "doi": "",
   "licencia": "CC BY-NC-SA 4.0",
   "licencia_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es",
   "orden_asignaturas": [
@@ -20,12 +19,5 @@
     "Psicología de la Educación y del Desarrollo",
     "Estadística y Análisis de Datos Aplicados a la Psicología",
     "Transversal"
-  ],
-  "goatcounter": "",
-  "correo_solicitudes": "ana.bravo.uco1@gmail.com",
-  "cursos_academicos": [
-    "2024/25",
-    "2025/26",
-    "2026/27"
   ]
 }
