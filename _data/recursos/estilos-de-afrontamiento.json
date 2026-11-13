@@ -2,9 +2,13 @@
   "titulo": "Estilos de afrontamiento",
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Convivencia Escolar en Educación Infantil",
+  "curso": "2º",
   "tema": "Tema 3",
   "transversal": false,
   "tipo": "Actividad interactiva",
+  "metodologias": [
+    "Aprendizaje activo"
+  ],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
