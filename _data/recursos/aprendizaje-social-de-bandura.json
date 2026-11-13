@@ -5,13 +5,6 @@
   "curso": "2º",
   "tema": "Tema 1",
   "transversal": false,
-  "otras_asignaturas": [
-    {
-      "titulacion": "Grado en Educación Primaria",
-      "asignatura": "Psicología de la Educación y del Desarrollo",
-      "curso": "1º"
-    }
-  ],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo",
