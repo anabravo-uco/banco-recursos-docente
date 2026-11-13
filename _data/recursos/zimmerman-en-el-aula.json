@@ -5,7 +5,6 @@
   "curso": "2º",
   "tema": "Tema 3",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo",
@@ -14,21 +13,23 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "",
-  "descripcion": "Actividad interactiva del tema 3 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "anio": "2025",
+  "descripcion": "Actividad interactiva para trabajar de forma aplicada el modelo cíclico de Zimmerman. Además, siver para autoevaluar su grado de comprensión del modelo",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbx_9NmZm4osfUqMXZxiQpUWprkUehYeXxl031kb44FsLFm2WIi39_7PoyDz9vAdR8vy/exec"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 35
+    }
+  ],
   "autoria": [
     {
       "nombre": "Ana",
@@ -47,12 +48,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sin declarar"
   },
   "actualizado": "2026-11-12"
 }
