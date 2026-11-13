@@ -46,6 +46,7 @@
   "uso": [
     {
       "curso_academico": "2020/21",
+      "asignatura": "Psicología de la Educación",
       "grupos": 2,
       "estudiantes": 31
     },
@@ -91,6 +92,10 @@
   ],
   "ia": {
     "usada": "Sí",
+    "herramientas": [
+      "Claude",
+      "Gemini"
+    ],
     "fines": [
       "crear imágenes o elementos gráficos"
     ],
