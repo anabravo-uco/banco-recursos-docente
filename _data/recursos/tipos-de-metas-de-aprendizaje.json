@@ -5,7 +5,6 @@
   "curso": "2º",
   "tema": "Tema 3",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -13,21 +12,23 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "",
-  "descripcion": "Actividad interactiva del tema 3 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "anio": "2025",
+  "descripcion": "Actividad interactiva para profundizar a partir de un ejemplo de aula sobre los tipos de motivación y orientación a metas durante el aprendizaje.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbzpi6msolCeiwX7GRJ8L7e5zNU8GPecR1oDvFep7fLD-fGL3kKD93eK-e-bDuPIYNeK/exec"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 39
+    }
+  ],
   "autoria": [
     {
       "nombre": "Ana",
@@ -46,12 +47,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
