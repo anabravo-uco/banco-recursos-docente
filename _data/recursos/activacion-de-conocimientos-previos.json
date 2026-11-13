@@ -29,7 +29,8 @@
   "materiales": [
     {
       "nombre": "Abrir la actividad",
-      "formato": "Aplicación web (Google Apps Script)"
+      "formato": "Aplicación web (Google Apps Script)",
+      "url": "https://script.google.com/macros/s/AKfycbwu5vBNYI0KfXdzPs2TAORf_uURHk4t_LOubAs7_jgTt3xgmBcwUxCtE6zjYXhnt24/exec"
     }
   ],
   "uso": [
