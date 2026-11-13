@@ -1,11 +1,10 @@
 {
-  "titulo": "Teorías y tipos de juego infantil",
+  "titulo": "Juego infantil",
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Educación",
   "curso": "2º",
   "tema": "Tema 5",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -14,28 +13,22 @@
   "acceso": "Abierto",
   "visible": true,
   "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 5 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad interactiva para trabajar a partir de ejemplos de aula las diferentes teorías sobre el juego infantil y los tipos de juego.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbwfOG1OK2JA8X5nTYE33yR4R-iuINkST5fIsb8Uv3aWdOt33QYAv2eZAf-aBp45AXfD8A/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 4 y 5.",
-      "asignatura": ""
+      "estudiantes": 8
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +47,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
