@@ -21,7 +21,7 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2025",
+  "anio": "2020",
   "descripcion": "Lectura de profundización sobre el desarrollo de la teoría de la mente en la infancia y su evaluación mediante tareas de falsa creencia y la escala de Wellman y Liu (2004), con anexos de material para aplicar las tareas. Complementa la actividad interactiva «Teoría de la mente».",
   "objetivos": [
     "Comprender el desarrollo de la teoría de la mente desde la primera infancia hasta la etapa escolar.",
@@ -36,18 +36,6 @@
   ],
   "uso": [
     {
-      "curso_academico": "2025/26",
-      "asignatura": "Psicología del Desarrollo",
-      "grupos": 1,
-      "estudiantes": 59
-    },
-    {
-      "curso_academico": "2026/27",
-      "asignatura": "Psicología del Desarrollo",
-      "grupos": 2,
-      "estudiantes": 145
-    },
-    {
       "curso_academico": "2020/21",
       "asignatura": "Psicología de la Educación",
       "grupos": 2,
@@ -58,6 +46,18 @@
       "asignatura": "Psicología de la Educación y del Desarrollo",
       "grupos": 1,
       "estudiantes": 64
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 59
+    },
+    {
+      "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 2,
+      "estudiantes": 145
     }
   ],
   "relacionados": [
