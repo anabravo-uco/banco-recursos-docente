@@ -1,35 +1,47 @@
 {
-  "titulo": "Simulacro de examen: autorregulación del aprendizaje",
+  "titulo": "Examen de repaso",
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Educación",
   "curso": "2º",
   "tema": "Tema 3",
   "transversal": false,
-  "otras_asignaturas": [],
-  "tipo": "Autoevaluación",
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    },
+    {
+      "titulacion": "Grado en Psicología",
+      "asignatura": "Psicología de la Educación II",
+      "curso": "3º"
+    }
+  ],
+  "tipo": "Actividad interactiva",
   "metodologias": [
-    "Autoevaluación",
-    "Evaluación formativa",
-    "Autorregulación y metacognición"
+    "Autorregulación y metacognición",
+    "Aprendizaje activo"
   ],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "",
-  "descripcion": "Autoevaluación del tema 3 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "anio": "2025",
+  "descripcion": "Actividad interactiva dirigida a activar de forma aplicada habilidades metacognitivas que se explicaran durante el temario. La actividad situa al alumnado en un simulacro de examen para luego analizar con ellos las emociones, pensamientos y comportamientos que han puesto en marcha.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbyfA2T4_Oe8bXFljjRcUN5riraBCYh2kS_mF17iCkS4BDz7v6GoQ5Ye6Rnjk3KVKzrn/exec"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
+  "uso": [
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 44
+    }
+  ],
   "autoria": [
     {
       "nombre": "Ana",
@@ -48,12 +60,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sin declarar"
   },
   "actualizado": "2026-11-12"
 }
