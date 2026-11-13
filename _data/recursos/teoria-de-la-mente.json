@@ -7,11 +7,6 @@
   "transversal": false,
   "otras_asignaturas": [
     {
-      "titulacion": "Grado en Educación Infantil",
-      "asignatura": "Psicología de la Educación",
-      "curso": "2º"
-    },
-    {
       "titulacion": "Grado en Educación Primaria",
       "asignatura": "Psicología de la Educación y del Desarrollo",
       "curso": "1º"
@@ -35,6 +30,12 @@
   ],
   "uso": [
     {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 37
+    },
+    {
       "curso_academico": "2025/26",
       "asignatura": "Psicología del Desarrollo",
       "grupos": 1,
@@ -45,12 +46,6 @@
       "asignatura": "Psicología del Desarrollo",
       "grupos": 2,
       "estudiantes": 60
-    },
-    {
-      "curso_academico": "2024/25",
-      "asignatura": "Psicología de la Educación y del Desarrollo",
-      "grupos": 1,
-      "estudiantes": 37
     }
   ],
   "autoria": [
