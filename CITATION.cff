@@ -10,13 +10,11 @@ authors:
     orcid: "https://orcid.org/0000-0003-3312-5523"
     affiliation: "Universidad de Córdoba"
 license: CC-BY-NC-SA-4.0
-url: "https://anabravo-uco.github.io/banco-recursos/"
-repository-code: "https://github.com/anabravo-uco/banco-recursos"
+url: "https://anabravo-uco.github.io/banco-recursos-docente/"
+repository-code: "https://github.com/anabravo-uco/banco-recursos-docente"
 keywords:
   - recursos educativos abiertos
-  - Psicología de la Educación
-  - Psicología del Desarrollo
   - Educación Infantil
-  - formación inicial del profesorado
-  - aprendizaje activo
-  - autorregulación del aprendizaje
+  - Educación Primaria
+  - Psicología
+  - Educación Superior
