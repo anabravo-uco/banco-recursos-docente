@@ -79,7 +79,8 @@
     return String(nombre || "").split(/[\s-]+/).filter(Boolean).map(n => n[0].toUpperCase() + ".").join(" ");
   }
   function autoresCita(autoria, sitio) {
-    const lista = (autoria || []).filter(a => a.apellidos || a.nombre).map(a => `${a.apellidos}, ${iniciales(a.nombre)}`);
+    const orcid = s => String(s || "").replace(/^https?:\/\/orcid\.org\//i, "").trim();
+    const lista = (autoria || []).filter(a => a.apellidos || a.nombre).map(a => (sitio.orcid && orcid(a.orcid) === orcid(sitio.orcid) && sitio.autoria_cita) ? sitio.autoria_cita : `${a.apellidos}, ${iniciales(a.nombre)}`);
     if (!lista.length) return sitio.autoria_cita || sitio.autora || "";
     if (lista.length === 1) return lista[0];
     return lista.slice(0, -1).join(", ") + " y " + lista[lista.length - 1];
