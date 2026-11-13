@@ -19,7 +19,7 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "2025",
+  "anio": "2024",
   "descripcion": "Actividad interactiva para trabajar las diferencias entre los estilos docentes descritos por Lewis",
   "materiales": [
     {
@@ -29,6 +29,12 @@
     }
   ],
   "uso": [
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 7
+    },
     {
       "curso_academico": "2025/26",
       "asignatura": "Psicología de la Educación",
