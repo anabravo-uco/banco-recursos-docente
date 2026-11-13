@@ -52,7 +52,8 @@
     {
       "curso_academico": "2022/23",
       "asignatura": "Psicología de la Educación II",
-      "grupos": 46
+      "grupos": 1,
+      "estudiantes": 46
     },
     {
       "curso_academico": "2024/25",
