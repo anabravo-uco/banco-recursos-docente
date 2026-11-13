@@ -1,8 +1,17 @@
 {
   "titulo": "Autoevaluación del modelo cíclico de Zimmerman",
-  "titulacion": "Varias titulaciones",
-  "asignatura": "Transversal",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología de la Educación",
+  "curso": "2º",
+  "tema": "Tema 3",
   "transversal": false,
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Autoevaluación",
   "estado": "Disponible",
   "acceso": "Abierto",
