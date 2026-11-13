@@ -3,7 +3,7 @@
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
   "tema": "Competencias académicas",
-  "transversal": false,
+  "transversal": true,
   "tipo": "Taller",
   "estado": "Disponible",
   "acceso": "Abierto",
