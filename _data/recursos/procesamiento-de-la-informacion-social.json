@@ -5,37 +5,39 @@
   "curso": "2º",
   "tema": "Tema 4",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Actividad interactiva",
   "metodologias": [
-    "Aprendizaje activo"
+    "Aprendizaje activo",
+    "Autoevaluación"
   ],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
   "anio": "2025",
-  "descripcion": "Actividad interactiva del tema 4 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
+  "descripcion": "Actividad interactiva dirigida a trabajar a partir de dos situaciones de aula el Modelo de Procesamiento de Información Social (Crick y Dodge, 1994). Esta actividad es complementaria a la actividad \"Comprendiendo la información social\", llendo un paso más allá ya que trabajan con las seis fases descritas en el modelo. Es una actividad que puede servir como autoevaluación de lo aprendido.",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbyT2T_z2bAyKOBO4wmJYDeDrj-Z8uEePc6CNRUk2LSX-awo5yQSz1t5OsOD1drI_NdQ/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 4 y 5.",
-      "asignatura": ""
+      "estudiantes": 15,
+      "observaciones": "Grupo en el que se impartieron los temas 4 y 5."
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +56,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
