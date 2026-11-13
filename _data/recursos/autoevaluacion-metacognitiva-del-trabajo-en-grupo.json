@@ -3,7 +3,7 @@
   "titulacion": "Varias titulaciones",
   "asignatura": "Transversal",
   "tema": "Evaluación metacognitiva del trabajo en equipo",
-  "transversal": false,
+  "transversal": true,
   "tipo": "Autoevaluación",
   "estado": "Disponible",
   "acceso": "Abierto",
