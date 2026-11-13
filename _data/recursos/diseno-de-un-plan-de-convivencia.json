@@ -2,20 +2,19 @@
   "titulo": "Diseño de un plan de convivencia",
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Convivencia Escolar en Educación Infantil",
-  "curso": "",
-  "tema": "",
+  "curso": "2º",
+  "tema": "Práctica",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Práctica",
   "metodologias": [
-    "Aprendizaje basado en casos",
-    "Aprendizaje cooperativo"
+    "Aprendizaje cooperativo",
+    "Aprendizaje basado en proyectos"
   ],
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
   "anio": "2024",
-  "descripcion": "Práctica de aprendizaje basado en casos. Cada grupo asume el papel del equipo de un centro y diseña un plan de convivencia ajustado a uno de tres contextos de centro ficticios: análisis del contexto (DAFO), marco teórico, objetivos, de 3 a 5 sesiones con su evaluación, un cuento o cómic para el aula y una exposición oral. Incluye la guía de la práctica, los contextos y la rúbrica de evaluación.",
+  "descripcion": "Práctica de aprendizaje basado en proyectos. Cada grupo asume el papel del equipo de un centro y diseña un plan de convivencia ajustado a uno de tres contextos de centro ficticios. Teniendo que realizar un análisis del contexto (DAFO), marco teórico, objetivos, de 3 a 5 sesiones con su evaluación, un cuento o cómic para el aula y una exposición oral. Incluye la guía de la práctica, los contextos y la rúbrica de evaluación.",
   "objetivos": [
     "Analizar las características internas y externas de un centro y sintetizar sus fortalezas y debilidades.",
     "Seleccionar y fundamentar teóricamente las competencias socioemocionales que conviene trabajar para promover la convivencia.",
@@ -23,38 +22,31 @@
     "Diseñar sesiones, talleres o dinámicas originales, con sus recursos, duración e instrumentos de evaluación.",
     "Elaborar un recurso creativo (cuento o cómic) para Educación Infantil y comunicar el proyecto oralmente."
   ],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Guía de la práctica",
       "formato": "Documento PDF",
-      "url": "",
       "archivo": "/materiales/Guia_practica_plan_convivencia.pdf"
     },
     {
       "nombre": "Contextos de centro",
       "formato": "Documento PDF",
-      "url": "",
       "archivo": "/materiales/Contextos_plan_convivencia.pdf"
     },
     {
       "nombre": "Rúbrica de evaluación",
       "formato": "Documento PDF",
-      "url": "",
       "archivo": "/materiales/Rubrica_plan_convivencia.pdf"
     }
   ],
   "uso": [
     {
       "curso_academico": "2024/25",
-      "grupos": null,
-      "estudiantes": null,
-      "observaciones": "",
-      "asignatura": ""
+      "asignatura": "Psicología de la Convivencia Escolar en Educación Infantil",
+      "grupos": 1,
+      "estudiantes": 64
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -74,12 +66,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "No"
   },
   "actualizado": "2026-11-12"
 }
