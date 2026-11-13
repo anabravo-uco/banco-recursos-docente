@@ -47,7 +47,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar"
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
