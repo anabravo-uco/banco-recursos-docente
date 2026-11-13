@@ -7,6 +7,11 @@
   "transversal": false,
   "otras_asignaturas": [
     {
+      "titulacion": "Grado en Educación Infantil",
+      "asignatura": "Psicología de la Educación",
+      "curso": "2º"
+    },
+    {
       "titulacion": "Grado en Educación Primaria",
       "asignatura": "Psicología de la Educación y del Desarrollo",
       "curso": "1º"
