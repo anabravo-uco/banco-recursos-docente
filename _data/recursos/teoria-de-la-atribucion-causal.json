@@ -5,7 +5,13 @@
   "curso": "2º",
   "tema": "Tema 3",
   "transversal": false,
-  "otras_asignaturas": [],
+  "otras_asignaturas": [
+    {
+      "titulacion": "Grado en Educación Primaria",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "curso": "1º"
+    }
+  ],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -13,21 +19,36 @@
   "estado": "Disponible",
   "acceso": "Abierto",
   "visible": true,
-  "anio": "",
+  "anio": "2024",
   "descripcion": "Actividad interactiva del tema 3 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbzWBXpcYt-VPiK7z9ufy0ep_6XXLsJQPzZ2Yd2eyIjFVHaMImgDvb753TEmeFXKt8RS/exec"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
+  "uso": [
+    {
+      "curso_academico": "2022/23",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 24,
+      "observaciones": "Todavía no estaba creada la aplicación y se hizo en Wooclap"
+    },
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Educación y del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 38
+    },
+    {
+      "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
+      "grupos": 1,
+      "estudiantes": 47
+    }
+  ],
   "autoria": [
     {
       "nombre": "Ana",
@@ -46,12 +67,14 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
   },
   "actualizado": "2026-11-12"
 }
