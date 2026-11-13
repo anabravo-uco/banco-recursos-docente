@@ -2,10 +2,9 @@
   "titulo": "Autoevaluación sobre escalas de medida",
   "titulacion": "Grado en Psicología",
   "asignatura": "Estadística y Análisis de Datos Aplicados a la Psicología",
-  "curso": "",
+  "curso": "2º",
   "tema": "Tema 1",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Autoevaluación",
   "metodologias": [
     "Autoevaluación",
@@ -16,19 +15,21 @@
   "visible": true,
   "anio": "2025",
   "descripcion": "Autoevaluación del tema 1 de Estadística y Análisis de Datos Aplicados a la Psicología.",
-  "objetivos": [],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Genially",
-      "url": "https://view.genially.com/67b3af95f31d45b860803a50",
-      "archivo": ""
+      "url": "https://view.genially.com/67b3af95f31d45b860803a50"
     }
   ],
-  "uso": [],
-  "relacionados": [],
-  "apartados": [],
+  "uso": [
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Estadística y Análisis de Datos Aplicados a la Psicología",
+      "grupos": 1,
+      "estudiantes": 54
+    }
+  ],
   "autoria": [
     {
       "nombre": "Ana",
@@ -46,12 +47,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sin declarar"
   },
   "actualizado": "2026-11-12"
 }
