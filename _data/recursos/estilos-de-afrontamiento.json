@@ -3,15 +3,26 @@
   "titulacion": "Grado en Educación Infantil",
   "asignatura": "Psicología de la Convivencia Escolar en Educación Infantil",
   "tema": "Tema 3",
+  "transversal": false,
   "tipo": "Actividad interactiva",
   "estado": "Disponible",
+  "acceso": "Abierto",
   "visible": true,
-  "descripcion": "Actividad interactiva del tema 3 de Psicología de la Convivencia Escolar en Educación Infantil.",
+  "anio": "2024",
+  "descripcion": "Actividad interactiva para trabajar los estilos de afrontamiento y resolución del conflicto propuestos por Torrego (2007)",
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Genially",
       "url": "https://view.genially.com/6aecd740d6a86d2a8159bc17"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2024/25",
+      "asignatura": "Psicología de la Convivencia Escolar en Educación Infantil",
+      "grupos": 1,
+      "estudiantes": 48
     }
   ],
   "autoria": [
@@ -30,5 +41,8 @@
       "porcentaje": 100
     }
   ],
+  "ia": {
+    "usada": "Sin declarar"
+  },
   "actualizado": "2026-11-12"
 }
