@@ -5,7 +5,6 @@
   "curso": "2º",
   "tema": "Tema 1",
   "transversal": false,
-  "otras_asignaturas": [],
   "tipo": "Actividad interactiva",
   "metodologias": [
     "Aprendizaje activo"
@@ -15,27 +14,21 @@
   "visible": true,
   "anio": "2025",
   "descripcion": "Actividad interactiva del tema 1 de Psicología de la Educación.",
-  "objetivos": [],
-  "competencias": [],
   "materiales": [
     {
       "nombre": "Abrir la actividad",
       "formato": "Aplicación web (Google Apps Script)",
-      "url": "",
-      "archivo": ""
+      "url": "https://script.google.com/macros/s/AKfycbxtqVVZdvEyUTmsQ0icNq75-g0Te16BNFpouobF8G3uNE2b-c8Br3QxuD7MeBECM2IP/exec"
     }
   ],
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología de la Educación",
       "grupos": 1,
-      "estudiantes": null,
-      "observaciones": "Grupo en el que se impartieron los temas 1 y 2.",
-      "asignatura": ""
+      "estudiantes": 58
     }
   ],
-  "relacionados": [],
-  "apartados": [],
   "autoria": [
     {
       "nombre": "Ana",
@@ -54,12 +47,7 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar",
-    "herramientas": [],
-    "otra_herramienta": "",
-    "fines": [],
-    "grado": "",
-    "aclaracion": ""
+    "usada": "Sin declarar"
   },
   "actualizado": "2026-11-12"
 }
