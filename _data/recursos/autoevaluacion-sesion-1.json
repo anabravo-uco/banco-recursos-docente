@@ -25,11 +25,13 @@
   "uso": [
     {
       "curso_academico": "2025/26",
+      "asignatura": "Psicología del Desarrollo",
       "grupos": 1,
       "estudiantes": 59
     },
     {
       "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
       "grupos": 2,
       "estudiantes": 145
     }
