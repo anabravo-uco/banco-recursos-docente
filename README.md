@@ -8,7 +8,7 @@ Actividades interactivas, autoevaluaciones, dinámicas de aula, lecturas para el
 
 ## Cómo citar
 
-Bravo Castillo, A. (2026). *Banco de recursos educativos abiertos de Psicología Evolutiva y de la Educación* (Versión 1.0) [Recurso educativo]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Bravo Castillo, A. (2026). *Banco de recursos educativos abiertos de Psicología Evolutiva y de la Educación* (Versión 1.0) [Recurso educativo]. Zenodo. [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.24185604)
 
 Cada recurso tiene su propia cita en su ficha del catálogo.
 
