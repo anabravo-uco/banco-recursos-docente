@@ -14,6 +14,13 @@
   "visible": true,
   "anio": "2026",
   "descripcion": "Actividad interactiva dirigida a concretar con ejemplos de aula los diferentes tipos de memoria",
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Aplicación web (Google Apps Script)",
+      "url": "https://script.google.com/macros/s/AKfycbzfDgByWfIn5e_XFU2kWOzneiDxS1zdNR9eUel_tiksLE_iNdfidkoP0NssDdy4SEtT8w/exec"
+    }
+  ],
   "uso": [
     {
       "curso_academico": "2026/27",
