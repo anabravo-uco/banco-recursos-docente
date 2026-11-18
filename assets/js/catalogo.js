@@ -138,8 +138,8 @@
     document.title = `${sitio.titulo_corto || "Banco de recursos"} · ${sitio.autora}`;
     $("brandName").textContent = sitio.titulo_corto || "Banco de recursos educativos";
     $("heroUni").textContent = sitio.institucion || "";
-    $("heroTitle").innerHTML = E(sitio.titulo || "").replace(/\babiertos\b/, "<em>abiertos</em>");
-    $("heroLead").textContent = sitio.presentacion || "";
+    $("heroTitle").innerHTML = `Banco de recursos educativos en abierto<span class="hero-sub">${E(sitio.area || "")}</span>`;
+    $("heroLead").textContent = "Actividades interactivas, autoevaluaciones, dinámicas de aula, lecturas y prácticas para los grados de Educación Infantil, Educación Primaria y Psicología.";
     $("acercaTexto").textContent = sitio.presentacion || "";
     $("byline").innerHTML = `<strong>${E(sitio.autora)}</strong> · ${E(sitio.departamento)} · ${E(sitio.institucion)}` +
       (sitio.orcid ? ` · <a href="https://orcid.org/${E(sitio.orcid)}" target="_blank" rel="noopener">ORCID ${E(sitio.orcid)}</a>` : "");
