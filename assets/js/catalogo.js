@@ -149,11 +149,9 @@
     const d = B.doiUrl(sitio);
     $("doiBadge").innerHTML = d ? `<a class="doi" href="${E(d)}" target="_blank" rel="noopener"><b>DOI</b><span>${E(sitio.doi)}</span></a>` : "";
     $("sTotal").textContent = recursos.length;
-    $("sDisp").textContent = recursos.filter(B.disponible).length;
     $("sAsig").textContent = new Set(recursos.flatMap(B.asignaturasDe).filter(a => a !== "Transversal")).size;
     $("sTit").textContent = new Set(recursos.flatMap(B.titulacionesDe).filter(t => t && t !== "Varias titulaciones")).size;
-    const part = recursos.reduce((s, r) => s + B.estudiantesDe(r), 0);
-    if (part) { $("sPart").textContent = part.toLocaleString("es-ES"); $("sPartWrap").hidden = false; }
+    if (window.PanelParticipaciones) PanelParticipaciones.pintar(recursos, sitio);
     B.visitasTotales(sitio).then(v => { if (v) { $("sVis").textContent = v; $("sVisWrap").hidden = false; } });
   }
 
