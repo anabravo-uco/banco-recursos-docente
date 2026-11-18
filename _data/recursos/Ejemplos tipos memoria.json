@@ -1,0 +1,36 @@
+{
+  "titulo": "Ejemplos de Tipos de memoria",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología del Desarrollo",
+  "curso": "1º",
+  "tema": "Tema 3",
+  "transversal": false,
+  "tipo": "Actividad interactiva",
+  "metodologias": [
+    "Aprendizaje activo"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2026",
+  "descripcion": "Actividad interactiva dirigida a concretar con ejemplos de aula los diferentes tipos de memoria",
+  "uso": [
+    {
+      "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 2,
+      "estudiantes": 75
+    }
+  ],
+  "ia": {
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
+  },
+  "actualizado": "2026-11-18"
+}
