@@ -1,0 +1,37 @@
+{
+  "titulo": "Autoevaluación del desarrollo semántico",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología del Desarrollo",
+  "curso": "1º",
+  "tema": "Tema 4",
+  "transversal": false,
+  "tipo": "Autoevaluación",
+  "metodologias": [
+    "Aprendizaje basado en juegos y gamificación",
+    "Autoevaluación"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2026",
+  "descripcion": "Actividad basada en metodología de gamificación para la autoevaluación de lo aprendido sobre el desarrollo semántico en los bebés y niños/as de 0 a 6 años. La actividad se hace por parejas o grupos de tres en forma de competición.",
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Aplicación web (Google Apps Script)",
+      "url": "https://script.google.com/macros/s/AKfycbw4xhZsycuqTNu-_DnLEzCjiZF3lcCle5KjVhqlYMZmrigWcX7mNIcl4UsHLfZnMw2lOw/exec"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 1,
+      "estudiantes": 49
+    }
+  ],
+  "ia": {
+    "usada": "Sin declarar"
+  },
+  "actualizado": "2026-11-18"
+}
