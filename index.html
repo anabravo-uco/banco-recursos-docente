@@ -36,13 +36,31 @@
         <p class="lead" id="heroLead"></p>
         <p class="byline" id="byline"></p>
       </div>
-      <div class="stats" id="stats" aria-label="Resumen del banco">
-        <div class="stat"><b id="sTotal">—</b><span>recursos</span></div>
-        <div class="stat"><b id="sDisp">—</b><span>disponibles</span></div>
-        <div class="stat"><b id="sAsig">—</b><span>asignaturas</span></div>
-        <div class="stat"><b id="sTit">—</b><span>titulaciones</span></div>
-        <div class="stat" id="sPartWrap" hidden><b id="sPart">—</b><span>participaciones de estudiantes</span></div>
-        <div class="stat" id="sVisWrap" hidden><b id="sVis">—</b><span>visitas a la web</span></div>
+      <div class="hero-datos">
+        <div class="stats" id="stats" aria-label="Resumen del banco">
+          <div class="stat"><b id="sTotal">—</b><span>recursos</span></div>
+          <div class="stat"><b id="sAsig">—</b><span>asignaturas</span></div>
+          <div class="stat"><b id="sTit">—</b><span>titulaciones</span></div>
+          <div class="stat"><b id="sCursos">—</b><span>cursos académicos</span></div>
+          <div class="stat" id="sVisWrap" hidden><b id="sVis">—</b><span>visitas a la web</span></div>
+        </div>
+        <section class="part" id="sPartWrap" aria-label="Participaciones de estudiantes" hidden>
+          <div class="part-head">
+            <p class="part-cifra"><b id="sPart">—</b> <span id="sPartTxt">participaciones de estudiantes</span></p>
+            <div class="part-modo" role="group" aria-label="Qué cifra mostrar">
+              <button type="button" data-modo="total" aria-pressed="true">Total</button>
+              <button type="button" data-modo="media" aria-pressed="false">Media por recurso</button>
+            </div>
+          </div>
+          <div class="part-vistas" role="group" aria-label="Agrupar participaciones">
+            <button type="button" data-vista="curso" aria-pressed="true">Por curso</button>
+            <button type="button" data-vista="titulacion" aria-pressed="false">Por titulación</button>
+            <button type="button" data-vista="asignatura" aria-pressed="false">Por asignatura</button>
+          </div>
+          <div class="part-barras" id="partBarras"></div>
+          <div class="part-leyenda" id="partLeyenda"></div>
+          <p class="part-nota" id="partNota"></p>
+        </section>
       </div>
     </div>
   </section>
@@ -124,6 +142,7 @@
 </footer>
 
 <script src="assets/js/comun.js"></script>
+<script src="assets/js/participaciones.js"></script>
 <script src="assets/js/catalogo.js"></script>
 </body>
 </html>
