@@ -31,7 +31,16 @@
     }
   ],
   "ia": {
-    "usada": "Sin declarar"
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación",
+      "proponer ideas o la estructura del recurso",
+      "redactar o reformular textos"
+    ],
+    "grado": "Sustancial"
   },
   "actualizado": "2026-11-18"
 }
