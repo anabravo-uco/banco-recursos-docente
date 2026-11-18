@@ -1,0 +1,45 @@
+{
+  "titulo": "Evolución del lenguaje",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología del Desarrollo",
+  "curso": "1º",
+  "tema": "Tema 4",
+  "transversal": false,
+  "tipo": "Actividad interactiva",
+  "metodologias": [
+    "Aprendizaje activo",
+    "Aprendizaje cooperativo",
+    "Autoevaluación"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2026",
+  "descripcion": "Actividad interactiva organizada en dos fases: en la primera los estudiantes activan sus conocimientos previos sobre el desarrollo fonológico y morfosintáctico de los bebés y niños/as de los 0 a los 6 años. En la segunda fase y tras la explicación del tema, se revisa su grado de recuerdo o aproximación intuitiva (en los casos de estudiantes que vienen de bachillerato) y reflexionan sobre cuál sería la respuesta adecuada una vez que han trabajado el contenido que forma parte del tema.",
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Aplicación web (Google Apps Script)",
+      "url": "https://script.google.com/macros/s/AKfycbymNx-057SEZyo_DZBg_TahYSoTkqbiFVCjAKncB6nWXQrwT7EJ0D8SQMc1u7_JF1dK/exec"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 2,
+      "estudiantes": 102
+    }
+  ],
+  "ia": {
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
+  },
+  "actualizado": "2026-11-18"
+}
