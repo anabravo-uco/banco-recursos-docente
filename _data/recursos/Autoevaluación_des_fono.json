@@ -1,0 +1,43 @@
+{
+  "titulo": "Autoevaluación sobre desarrollo fonológico",
+  "titulacion": "Grado en Educación Infantil",
+  "asignatura": "Psicología del Desarrollo",
+  "curso": "1º",
+  "tema": "Tema 4",
+  "transversal": false,
+  "tipo": "Autoevaluación",
+  "metodologias": [
+    "Autoevaluación"
+  ],
+  "estado": "Disponible",
+  "acceso": "Abierto",
+  "visible": true,
+  "anio": "2026",
+  "descripcion": "Actividad de autoevaluación sobre lo aprendido en relación al desarrollo fonológico infantil",
+  "materiales": [
+    {
+      "nombre": "Abrir la actividad",
+      "formato": "Aplicación web (Google Apps Script)",
+      "url": "https://script.google.com/macros/s/AKfycbz2ByH-JIJPaLS-07mOESntbSV5merb_EAygRkPFzoBSROZ5T_qfMstnNLrUjJGQ01-jQ/exec"
+    }
+  ],
+  "uso": [
+    {
+      "curso_academico": "2026/27",
+      "asignatura": "Psicología del Desarrollo",
+      "grupos": 2,
+      "estudiantes": 76
+    }
+  ],
+  "ia": {
+    "usada": "Sí",
+    "herramientas": [
+      "Claude"
+    ],
+    "fines": [
+      "escribir o depurar el código de la aplicación"
+    ],
+    "grado": "Parcial"
+  },
+  "actualizado": "2026-11-18"
+}
